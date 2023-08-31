@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "custom-library": "file:../custom-library",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

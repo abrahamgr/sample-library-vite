@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Button, summary } from 'custom-library'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,9 +19,9 @@ function App() {
       </div>
       <h1>Consumer App</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <Button type="button" onClick={() => setCount((count) => summary(count))}>
           count is {count}
-        </button>
+        </Button>
       </div>
     </>
   )
