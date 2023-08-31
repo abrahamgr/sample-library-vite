@@ -1,12 +1,21 @@
 {
   "name": "sample-library-vite",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sample of building library with vite and link it",
+  "main": "",
   "scripts": {
     "init": "bash ./init.sh"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/abrahamgr/sample-library-vite.git"
+  },
+  "keywords": [
+    "rect",
+    "vite",
+    "library",
+    "link"
+  ],
+  "author": "Abraham Galindo",
   "license": "MIT"
 }
